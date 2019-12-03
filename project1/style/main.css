@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*start code*/
+h1 {
+    font-size: 30px;
+    padding: 40px;
+    font-weight: 900;
+}
+
+.box-container {
+    height: 450px;
+    width: 400px;
+    /* background-color: rosybrown;
+       border: red solid;*/
+    margin-left: 20px;
+}
+
+.red-box {
+    background-color: rgb(160, 20, 20);
+    height: 80px;
+    width: 120px;
+    display: inline-block;
+    margin: 30px 25px 30px 25px;
+}
+
+.box1-style {
+    border: 4px black solid;
+}
+
+.box2-style {
+    visibility: hidden;;
+    color: tomato;
+}
+
+.red-box .box2-style:hover {
+    visibility: visible;            /*visibility hover effect not working */ 
+    border: 4px solid tomato;
+}
+
+.box3-style {
+    border: 4px black double;
+}
+
+.box4-style {
+    border: 4px black dashed;
+}
+
+.box5-style {
+    border: 4px black dotted;
+}
+
+/*next box*/
+.para-container {
+    background-color: purple;
+    height: 425px;
+    width: 400px;
+    margin: 15px;
+    padding-top: 40px;
+}
+
+.para-box {
+    background-color: red;
+    height: 350px;
+    width: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 20px solid blue;
+    border-left: 20px solid green;
+    border-right: 20px solid rgba(216, 211, 211, 0.493);
+    border-bottom: 20px solid yellow;
+}
+
+p {
+    padding: 15px;
+    color: white;
+}
